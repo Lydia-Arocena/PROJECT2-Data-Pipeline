@@ -1,11 +1,17 @@
 import requests
 import numpy as np
 import os
+import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
 
 API_TOKEN = os.getenv('waqiApiToken')
+
+def load_csv():
+    return pd.read_csv("data/City_Quality_of_Life_Dataset.csv", encoding = "ISO-8859-1", index_col = 0)
+    
+
 
 def getquality(city):
     try:
