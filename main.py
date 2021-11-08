@@ -21,7 +21,7 @@ df["Average Score"]=df.mean(axis=1)
 #Amplío la información de mi df con la api que me da información sobre la calidad del aire:
 df['Air Quality']=df.City.apply(af.getquality)
 df['Air Quality Level']=df["Air Quality"].apply(af.quality_level)
-print(df)
+
 
 #guardo en un csv :
 df.to_csv("data/final.csv")

@@ -2,3 +2,8 @@ token.txt
 .env
 .ipynb_checkpoints/
 src/__pycache__/
+api_ana.ipynb
+API_faltaexplicacionjaviparametros.ipynb
+Screen_time.ipynb
+Webscrapping_Dataframe_peque_ok.ipynb
+webscrapping_grande.ipynb
