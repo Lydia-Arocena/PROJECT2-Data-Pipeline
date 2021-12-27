@@ -1,6 +1,6 @@
 # PROYECTO-2--IRONHACK
 
-![polucion](https://github.com/Lydia-Arocena/PROYECTO-2-APIS/blob/main/POLUCION.png.jpg)
+![polucion](Images/POLUCION.png.jpg)
 
 ### 1. Introduction:
 This project aims to analyze several factors that affect Life Quality for each city worldwide. 
@@ -21,9 +21,10 @@ Once this analysis has been carried out, I have formulated 6 hypothesises in ord
 6. Japan's life quality based on its Healthcare system is the highest in the world.
 
 ### 3. Data:
-The csv file about life quality in different cities worldwide was downloaded from https://www.kaggle.com/.
 
-This csv has been enriched by the information given by Waki API (https://api.waqi.info/feed). This API informs about air quality by cities and its clasification.
+A [dataset](https://www.kaggle.com/orhankaramancode/city-quality-of-life-dataset) about life quality in different cities worldwide.
+
+This csv has been enriched by the information given by [Waki API](https://api.waqi.info/feed). This API informs about air quality by cities and its clasification.
 
 In order to develop this project, I have used the following files:
 - "1.Limpieza_enriquecimientoAPI": In this Jupyter Notebook file, I have cleaned my dataframe resulting from the csv file. In order to do so, I have deleted some unuseful columns, I have renamed others and I have also created a new column called "Average Score" which is the mean of all the other columns.
@@ -35,24 +36,20 @@ In order to develop this project, I have used the following files:
 
 - "src": it is a directory that contains the above mentioned Jupyter Notebooks files.
 
- - ".env": a file to keep my token unseen by others.
-
-- ".gitignore": a file where each line contains a pattern for files/directories to ignore.
-
 - "data": a directory that contains the original dataframe and the cleaned and enriched one.
 
 SOURCES:
-- https://www.kaggle.com/ (dataset).
-- https://api.waqi.info/feed (API).
+- [dataset](https://www.kaggle.com/orhankaramancode/city-quality-of-life-dataset)
+- [Waki API](https://api.waqi.info/feed)
 - Some libraries:
-     - Requests (https://docs.python-requests.org/en/latest/)
-    - Numpy (https://numpy.org/doc/)
-    - Os (https://docs.python.org/3/library/os.html)
-    - Pandas (https://pandas.pydata.org/)
-    - Load_dotenv (https://pypi.org/project/python-dotenv/)
-    - Seaborn (https://seaborn.pydata.org/)
-    - Matplotli.pyplot (https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
-    - Plotly.express (https://plotly.com/python-api-reference/plotly.express.html)
+    - [Requests](https://docs.python-requests.org/en/latest/)
+    - [Numpy](https://numpy.org/doc/)
+    - [Os](https://docs.python.org/3/library/os.html)
+    - [Pandas](https://pandas.pydata.org/)
+    - [Load_dotenv](https://pypi.org/project/python-dotenv/)
+    - [Seaborn](https://seaborn.pydata.org/)
+    - [Matplotli.pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
+    - [Plotly.express](https://plotly.com/python-api-reference/plotly.express.html)
 
 
  

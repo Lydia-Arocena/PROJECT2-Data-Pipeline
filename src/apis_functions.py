@@ -11,6 +11,7 @@ API_TOKEN = os.getenv('waqiApiToken')
 def load_csv():
     """
     Esta función sirve para cargar el csv.
+    Args: No recibe parámetros.
     Return: df del csv importado.
     
     """
