@@ -38,6 +38,8 @@ In order to develop this project, I have used the following files:
 
 - "data": a directory that contains the original dataframe and the cleaned and enriched one.
 
+- "Images": a directory that contains the cover photo.
+
 SOURCES:
 - [dataset](https://www.kaggle.com/orhankaramancode/city-quality-of-life-dataset)
 - [Waki API](https://api.waqi.info/feed)
